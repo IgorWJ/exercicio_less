@@ -1,0 +1,20 @@
+@media @mq-tablet {
+    .container {
+        max-width: 80%;
+    }
+
+    .products {
+        grid-template-columns: @grid-2-cols;
+        column-gap: 3%;
+    }
+}
+
+@media @mq-mobile {
+    .products {
+        display: block;
+    }
+
+    .product-item {
+        margin-bottom: 32px;
+    }
+}

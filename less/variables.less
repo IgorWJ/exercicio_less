@@ -1,0 +1,35 @@
+@import "variables.less";
+
+
+// ===== VARIÁVEIS =====
+@font-main: Roboto, sans-serif;
+@container-width: 1024px;
+@radius-sm: 8px;
+@radius-lg: 16px;
+
+// ===== MAPA DE CORES =====
+@colors: {
+    background: #f5f6fa;
+    header: #182C61;
+    white: #fff;
+    button: #44bd32;
+    button-hover: #4cd137;
+}
+
+// ===== MAPA DE BREAKPOINTS =====
+@breakpoints: {
+    tablet: 1023px;
+    mobile: 767px;
+}
+
+// ===== ESCAPINGS =====
+// Media queries montadas como texto puro
+@bp-tablet: @breakpoints[tablet];
+@bp-mobile: @breakpoints[mobile];
+
+@mq-tablet: ~"screen and (max-width: @{bp-tablet})";
+@mq-mobile: ~"screen and (max-width: @{bp-mobile})";
+
+// Valores de grid que o LESS deve deixar passar sem mexer
+@grid-3-cols: ~"repeat(3, 32.66%)";
+@grid-2-cols: ~"repeat(2, 48.5%)";

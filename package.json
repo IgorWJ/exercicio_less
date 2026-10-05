@@ -1,0 +1,24 @@
+{
+  "name": "017_introducao-ao-less",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "lessc less/styles.less css/styles.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorWJ/exercicio_less.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IgorWJ/exercicio_less/issues"
+  },
+  "homepage": "https://github.com/IgorWJ/exercicio_less#readme",
+  "description": "",
+  "devDependencies": {
+    "less": "^4.9.1"
+  }
+}
